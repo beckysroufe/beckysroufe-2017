@@ -187,6 +187,7 @@ hr {
 
 img {
   max-width: 100%;
+  border: 1px #ddd solid;
 }
 
 input[type="checkbox"],

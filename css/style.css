@@ -153,18 +153,33 @@ main.container {
 	text-align: center; 
 }
 
+.work_item.is-half {
+	margin-right: auto;
+	margin-left: auto;
+}
+
 .work_item:hover .work_item_example {
-	background-size: 95%;
+	background-size: 80%;
 }
 
 .work_item_example {
-	height: 200px;
+	min-height: 250px;
 	margin-bottom: 5%;
-	background: url("http://placehold.it/450x450") center no-repeat;
-	background-size: 85%;
+	background-position: center 80%;
+	background-repeat: no-repeat;
+	background-size: 75%;
 	transition: background-size 0.2s ease-in-out;
 	transform: scale(1.1);
+	overflow: visible;
 }
+
+.work_item--API-Network-Endpoint-Manager { background-image: url("../img/work/02-API-Network-Endpoint-Manager/03-User-Interface-Designs/02A-dashboard-grid.png"); }
+.work_item--API-Network-Billing-Module { background-image: url("../img/work/03-API-Network-Billing-Module/03-User-Interface-Designs/01-dashboard.png"); }
+.work_item--Project-Foodie { background-image: url("../img/work/04-Project-Foodie/01-Wireframes/Project-Foodie-UX-Wireframes.png"); }
+.work_item--Callibrity-Solutions { background-image: url("../img/work/05-Callibrity/02-User-Interface-Designs/00-callibrity-preview.png"); }
+.work_item--LISNR-Content-Portal { background-image: url("../img/work/06-LISNR/03-User-Interface-Designs/02B-dashboard-existing.png"); }
+.work_item--SecondNurture-Application { background-image: url("../img/work/06-SecondNurture-App/02-dashboard.png"); }
+.work_item--SecondNurture-Website { background-image: url("../img/work/07-SecondNurture Website/00-secondnurture-preview.png"); }
 
 .work_item_title { 
 	margin-bottom: 0 !important;
@@ -207,10 +222,14 @@ h1.work-detail_info_title {
 	display: block;
 	font-weight: bold;
 }
-.work-detail_info_role {
-	display: block;
-}
+
+.work-detail_info_role { display: block; }
 .work-detail_info_overview {}
+
+.work-detail_info_preview { 
+	margin-bottom: 2%;
+	width: 100%; 
+}
 
 .work-detail_process:before {
 	content: "";
@@ -251,7 +270,14 @@ h2.work-detail_process_step--name {
 	display: block;
 	margin: 5% auto;
 	width: 100%;
+	vertical-align: top;
 }
+
+/* Work Detail > Examples */
+.api-network-endpoint-manager--user-flows,
+.api-network-endpoint-manager--user-requirements,
+.api-network-billing-module--user-flows,
+.api-network-billing-module--user-wireframes { width: 100% !important; }
 
 /* About */
 .about { text-align: center; }
@@ -509,6 +535,10 @@ footer {
 		width: auto;
 		margin: auto 5%;
 	}
+
+	.work_item_example {
+		background-position: top center;
+	}
 }
 
 @media all and (min-width: 600px) {
@@ -554,6 +584,7 @@ footer {
 
 	.work_item_example {
 		margin-bottom: 3%;
+		min-height: 320px;
 	}
 
 	.work-detail_process:before {
@@ -614,6 +645,10 @@ footer {
 		margin-right: auto;
 		padding-top: 3%; 
 		padding-bottom: 5%;
+	}
+
+	.work_item_example {
+		background-position: center;
 	}
 
 	.work-detail_info_type { 
@@ -678,6 +713,8 @@ footer {
 	.about_community-leadership_roles_role {
 		margin-bottom: 3%;
 	}
+
+	.work-detail_info_preview { width: 50%; }
 }
 
 @media all and (min-width: 1040px) {
@@ -729,6 +766,19 @@ footer {
 	.intro { 
 		width: 60%;
 	}
+
+	.work_item:hover .work_item_example {
+		background-size: 420px;
+	}
+
+	.work_item_example {
+		background-size: 400px;
+	}
+
+	.api-network-endpoint-manager--user-flows,
+	.api-network-endpoint-manager--user-requirements,
+	.api-network-billing-module--user-flows,
+	.api-network-billing-module--user-wireframes { width: 85% !important; }
 
 	.work-detail_process_images {
 		/* display: flex;
