@@ -606,7 +606,7 @@ footer {
 
 	.work_item_example {
 		margin-bottom: 3%;
-		min-height: 320px;
+		min-height: 350px;
 	}
 
 	.work-detail_process:before {
@@ -670,6 +670,7 @@ footer {
 	}
 
 	.work_item_example {
+		min-height: 280px;
 		background-position: center;
 	}
 
@@ -753,7 +754,8 @@ footer {
 	.nav-back { font-size: 0.75em; }
 
 	.work_item_example {
-		margin-bottom: 6%;
+		min-height: 300px;
+		margin-bottom: 3%;
 	}
 
 	.work-detail_process:before {
@@ -806,6 +808,7 @@ footer {
 	}
 
 	.work_item_example {
+		min-height: 350px;
 		background-size: 400px;
 	}
 
