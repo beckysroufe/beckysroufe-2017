@@ -790,6 +790,8 @@ footer {
 	}
 
 	nav ul li { 
+		margin-left: 0.25%;
+		margin-right: 0.25%;
 		padding-left: 20px;
 		padding-right: 20px;
 		flex: none;
