@@ -204,6 +204,12 @@ main.container {
 	letter-spacing: normal;
 	background: url("../img/arrow-right.svg") left center no-repeat;
 	background-size: 10px;
+	transition: all 0.15s ease-in-out;
+}
+
+.nav-back:hover {
+	background: url("../img/arrow-right--pink.svg") left center no-repeat;
+	background-size: 10px;
 }
 
 .work-detail { text-align: center; }
