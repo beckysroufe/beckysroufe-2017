@@ -15,7 +15,7 @@
         <meta property="og:url" content="http://www.beckysroufe.com">
         <meta property="og:type" content="website">
         <meta property="og:title" content="Becky Sroufe - User Experience Designer">
-        <meta property="og:image" content="http://bulma.io/images/bulma-banner.png">
+        <meta property="og:image" content="http://www.beckysroufe.com/img/becky-sroufe.png">
         <meta property="og:image:type" content="image/png">
         <meta property="og:image:width" content="1200">
         <meta property="og:image:height" content="630">
@@ -25,7 +25,7 @@
         <meta name="twitter:site" content="@beckysroufe">
         <meta name="twitter:creator" content="@beckysroufe">
         <meta name="twitter:title" content="Becky Sroufe - User Experience Designer">
-        <meta name="twitter:image" content="http://bulma.io/images/bulma-banner.png">
+        <meta name="twitter:image" content="http://www.beckysroufe.com/img/becky-sroufe.png">
         <meta name="twitter:description" content="Becky Sroufe is a user experience designer and front end developer with a love for helping build beautiful, user-friendly digital experiences.">
 
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
