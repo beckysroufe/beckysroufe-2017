@@ -456,6 +456,16 @@ h2.contact_prompt_hello {
 	background-size: 18px;
 }
 
+.sad-face { 
+	display: block;
+	margin: 0 auto;
+	padding: 0;
+	width: 150px;
+	height: 150px;
+	background: url("../img/sad-face.svg") center no-repeat; 
+	background-size: 60%;
+}
+
 /* Footer */
 footer { 
 	margin-bottom: 90px;
