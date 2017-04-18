@@ -443,6 +443,9 @@ h2.contact_prompt_hello {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+	padding-right: 40px;
+	background: url("../img/send.svg") 90% center no-repeat;
+	background-size: 18px;
 }
 
 /* Footer */
