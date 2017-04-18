@@ -38,14 +38,14 @@
         <div class="content">
             <header>
                 <nav role="navigation">
-                    <div class="logo">
+                    <a class="logo" href="../index.html">
                         <div class="logo_brand font-rubik-strong">
                             Becky Sroufe
                         </div>
                         <div class="logo_role font-rubik">
                             User Experience Designer
                         </div>
-                    </div>
+                    </a>
                     <ul class="main-navigation font-rubik">
                         <li>
                             <a href="../index.html">Work</a>
@@ -65,25 +65,52 @@
                 <div class="work-detail_info">
                     <h1 class="work-detail_info_title font-rubik-strong">Project Foodie</h1>
                     <p><span class="work-detail_info_type">Mobile Application <em>(iOS, Android)</em></span><span class="work-detail_info_role">UX &amp; UI Designer</span></p>
-                    <img class="work-detail_info_preview" alt="Wireframe for Project Foodie mobile product" src="../img/work/04-Project-Foodie/01-Wireframes/Project-Foodie-UX-Wireframes.png" />
-                    <p class="work-detail_info_overview">For this project, lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vel dolor eros. Etiam pharetra dolor enim, sit amet fringilla nisi tristique sit amet. In ex enim, commodo ac vehicula non, maximus vitae mauris. Duis semper pellentesque vulputate. Integer viverra tempus lacus, sed hendrerit neque egestas sed. Sed accumsan odio arcu, sed pretium mauris molestie sit amet. Etiam risus arcu, hendrerit vitae libero sed, tincidunt vulputate augue.</p>
+                    <a class="modal-button" data-target="#modalProjectFoodieWireframe">
+                        <img class="work-detail_info_preview" alt="Wireframe for Project Foodie mobile product" src="../img/work/04-Project-Foodie/01-Wireframes/Project-Foodie-UX-Wireframes.png" />
+                    </a>
+                    <p class="work-detail_info_overview">I worked with a local startup team to design an early stage product and provide initial UX consultation. We collaborated to identify the problems we were solving, targeted audience and end users and took our idea from business planning and strategy through design to assist in early prototyping.</p>
                 </div>
 
                 <section class="work-detail_process step-one">
                     <h2 class="work-detail_process_step--name"><span class="work-detail_process_number">1</span>Research &amp; Planning</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vel dolor eros. Etiam pharetra dolor enim, sit amet fringilla nisi tristique sit amet. In ex enim, commodo ac vehicula non, maximus vitae mauris. Duis semper pellentesque vulputate. Integer viverra tempus lacus, sed hendrerit neque egestas sed. Sed accumsan odio arcu, sed pretium mauris molestie sit amet.</p>
+                    <p>I worked with the team to help understand the initial concept and help get a detailed understanding of the problem we were solving with this product. I guided the team in helping to identify the users and create a proto-personas as well as conducted individual user interviews with our target audience to help identify key features and functions users would like to have.</p>
                     <div class="work-detail_process_images">
-                        <img class="work-detail_process_images_image" src="../img/work/04-Project-Foodie/00-User-Flows/Project-Foodie-UX-Flows.png" />
+                        <a class="modal-button" data-target="#modalProjectFoodieUserFlow">
+                            <img class="work-detail_process_images_image project-foodie--user-flows" src="../img/work/04-Project-Foodie/00-User-Flows/Project-Foodie-UX-Flows.png" />
+                        </a>
                     </div>
                 </section>
 
                 <section class="work-detail_process step-three">
                     <h2 class="work-detail_process_step--name"><span class="work-detail_process_number">2</span>Wireframing</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vel dolor eros. Etiam pharetra dolor enim, sit amet fringilla nisi tristique sit amet. In ex enim, commodo ac vehicula non, maximus vitae mauris. Duis semper pellentesque vulputate. Integer viverra tempus lacus, sed hendrerit neque egestas sed. Sed accumsan odio arcu, sed pretium mauris molestie sit amet.</p>
+                    <p>Once we had identified users and the key features of our product, I put together a user flow to help illustrate the experience ecosystem we were creating. This assisted us in prioritizing our features and understanding how all of the functions would interact.</p>
                     <div class="work-detail_process_images">
-                        <img class="work-detail_process_images_image" src="../img/work/04-Project-Foodie/01-Wireframes/Project-Foodie-UX-Wireframes.png" />
+                        <a class="modal-button" data-target="#modalProjectFoodieWireframe">
+                            <img class="work-detail_process_images_image project-foodie--user-wireframes" src="../img/work/04-Project-Foodie/01-Wireframes/Project-Foodie-UX-Wireframes.png" />
+                        </a>
                     </div>
                 </section>
+
+                <!-- Image Modals -->
+                <div id="modalProjectFoodieUserFlow" class="modal">
+                <div class="modal-background"></div>
+                  <div class="modal-content">
+                    <div class="box">
+                      <img class="work-detail_process_images_image project-foodie--user-flows" src="../img/work/04-Project-Foodie/00-User-Flows/Project-Foodie-UX-Flows.png" />
+                    </div>
+                  </div>
+                  <button class="modal-close"></button>
+                </div>
+
+                <div id="modalProjectFoodieWireframe" class="modal">
+                <div class="modal-background"></div>
+                  <div class="modal-content">
+                    <div class="box">
+                      <img class="work-detail_process_images_image project-foodie--user-wireframes" src="../img/work/04-Project-Foodie/01-Wireframes/Project-Foodie-UX-Wireframes.png" />
+                    </div>
+                  </div>
+                  <button class="modal-close"></button>
+                </div>
             </main> <!-- #main -->
         </div>
         
@@ -93,7 +120,9 @@
             </div>
         </footer>
 
-        <script src="js/main.js"></script>
+        <script src="../js/main.js"></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+        <script src="../js/bulma.js"></script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>

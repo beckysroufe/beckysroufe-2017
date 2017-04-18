@@ -715,6 +715,16 @@ footer {
 	}
 
 	.work-detail_info_preview { width: 50%; }
+
+	.secondnurture-website_images--example { float: left; }
+
+	.secondnurture-website_images:after {
+		content: "";
+		display: block;
+		width: 100%;
+		height: 2%;
+		clear: both;
+	}
 }
 
 @media all and (min-width: 1040px) {
@@ -778,7 +788,9 @@ footer {
 	.api-network-endpoint-manager--user-flows,
 	.api-network-endpoint-manager--user-requirements,
 	.api-network-billing-module--user-flows,
-	.api-network-billing-module--user-wireframes { width: 85% !important; }
+	.api-network-billing-module--user-wireframes,
+	.project-foodie--user-flows,
+	.project-foodie--user-wireframes { width: 85% !important; }
 
 	.work-detail_process_images {
 		/* display: flex;
