@@ -29,6 +29,7 @@ a:hover { color: #e74445; }
 .logo { 
 	margin-top: 2%;
 	padding: 2%;
+	cursor: pointer;
 }
 
 .logo:after, {
@@ -790,7 +791,8 @@ footer {
 	.api-network-billing-module--user-flows,
 	.api-network-billing-module--user-wireframes,
 	.project-foodie--user-flows,
-	.project-foodie--user-wireframes { width: 85% !important; }
+	.project-foodie--user-wireframes,
+	.lisnr--user-flows { width: 85% !important; }
 
 	.work-detail_process_images {
 		/* display: flex;
