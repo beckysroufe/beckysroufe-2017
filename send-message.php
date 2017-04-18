@@ -3,10 +3,10 @@
 $EmailFrom = "becky@beckysroufe.com";
 $EmailTo = "becky@beckysroufe.com";
 $Subject = "You've received a message from beckysroufe.com!";
-$Name = Trim(stripslashes($_POST['firstName']));
-$Phone = Trim(stripslashes($_POST['phoneNumber'])); 
-$Email = Trim(stripslashes($_POST['emailAddress'])); 
-$Message = Trim(stripslashes($_POST['message'])); 
+$Name = Trim(stripslashes($_POST['Name']));
+$Phone = Trim(stripslashes($_POST['Phone'])); 
+$Email = Trim(stripslashes($_POST['Email'])); 
+$Message = Trim(stripslashes($_POST['Message'])); 
 
 // prepare email body text
 $Body = "";

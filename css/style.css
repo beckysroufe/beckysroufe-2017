@@ -428,6 +428,8 @@ h3.leadership-title {
 	margin-left: 4%;
 }
 
+.contact_prompt { text-align: center; }
+
 .contact_prompt_hello:before {
 	content: "";
 	display: block;

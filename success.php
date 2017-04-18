@@ -72,7 +72,10 @@
                         Twitter
                     </a>
                 </div>
-                <p>Thanks so much for reaching out! I can't wait to connect and look forward to speaking with you.</p>
+                <div class="contact_prompt">
+                    <h2 class="contact_prompt_hello">Thanks so much for reaching out! :)</h2>
+                    <p>I can't wait to connect and look forward to speaking with you.</p>
+                </div>
             </main> <!-- #main -->
         </div>
         
