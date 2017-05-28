@@ -467,6 +467,66 @@ h2.contact_prompt_hello {
 	background-size: 60%;
 }
 
+/* Work With Me */
+.link--work-with-me.selected { 
+	color: #e74445;
+	text-decoration: underline; 
+}
+
+.btn--work-with-me { 
+	display: block; 
+	width: 200px;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: "Merriweather", "Times New Roman", serif;
+	text-transform: none;
+	font-weight: 100;
+}
+
+.work-with-me_title > h1,
+h2.ux-services_header { text-align: center; }
+
+.work-with-me_title > h1 { 
+	color: #e74445;
+    font-weight: bold;
+    font-size: 1.750em;
+}
+
+.work-with-me_info {
+	margin-bottom: 50px;
+}
+
+h2.ux-services_header {
+	font-family: "Rubik";
+	color: #29bbb2;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+h2.ux-services_header { font-size: 1.313em; }
+
+.work-with-me_img--ux-research-strategy,
+.work-with-me_img--information-architecture,
+.work-with-me_img--visual-interaction-design,
+.work-with-me_img--marketing-infographic-support {
+	display: block;
+	width: 100px;
+	height: 120px;
+	margin-left: auto;
+	margin-right: auto;
+	background-position: center;
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+.work-with-me_img--ux-research-strategy { background-image: url("../img/icon--ux-research-strategy.svg"); }
+.work-with-me_img--information-architecture { background-image: url("../img/icon--information-architecture.svg"); }
+.work-with-me_img--visual-interaction-design { background-image: url("../img/icon--visual-interaction-design.svg"); }
+.work-with-me_img--marketing-infographic-support { background-image: url("../img/icon--marketing-infographic-support.svg"); }
+
+.work-with-me_contact { text-align: center; }
+
 /* Footer */
 footer { 
 	margin-bottom: 90px;
@@ -697,6 +757,27 @@ footer {
 		margin-left: auto;
 		margin-right: auto;
 	}
+
+	h2.ux-services_header { text-align: left; }
+
+	.work-with-me_img--ux-research-strategy,
+	.work-with-me_img--information-architecture,
+	.work-with-me_img--visual-interaction-design,
+	.work-with-me_img--marketing-infographic-support {
+		display: inline-block;
+		width: 100px;
+		height: 120px;
+		margin: 0 2%;
+		vertical-align: top;
+		background-position: top center;
+	}
+
+	.work-with-me_services { 
+		display: inline-block;
+		width: 75%; 
+	}
+
+	.work-with-me_ux-research-strategy { margin-top: 3%; }
 }
 
 @media all and (min-width: 960px) {
